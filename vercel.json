@@ -1,8 +1,4 @@
 {
-  "rewrites": [
-    {
-      "source": "/app/auth/callback",
-      "destination": "/api/auth/callback"
-    }
-  ]
+  "name": "deriv-callback",
+  "version": "1.0.0"
 }
