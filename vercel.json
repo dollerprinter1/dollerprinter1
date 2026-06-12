@@ -1,7 +1,6 @@
+
 {
-  "functions": {
-    "app/auth/callback.js": {
-      "runtime": "nodejs20.x"
-    }
-  }
+  "rewrites": [
+    { "source": "/app/auth/callback", "destination": "/api/auth/callback" }
+  ]
 }
