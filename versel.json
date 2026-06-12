@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/app/auth/callback",
-      "destination": "/api/auth/callback"
-    }
-  ]
-}
